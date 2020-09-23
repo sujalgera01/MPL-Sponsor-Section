@@ -3,10 +3,7 @@
 	margin: 0;
 }
 
-body {/*
-	display: flex;
-	justify-content: center;
-	align-items: center;*/
+body {
 	align-content: center;
 	justify-content: center;
 	align-items: center;
@@ -156,5 +153,3 @@ body {/*
     	padding: 0;
     }
 }
-
-
