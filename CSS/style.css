@@ -59,15 +59,17 @@
 	font-size: 30px;
 	margin-top: 120px;
 	font-weight: normal;
-	/*line-height: 72px;*/
+	/line-height: 72px;/
 	text-align: center;
 	font-weight: normal;
 }
 
-.reg-btn:link,
-.reg-btn:visited {
+
+.reg-btn{
+	/* width: 12.5%; */
     padding: 10px 30px;
-    font-weight: normal;
+    margin-top: 20px;
+    font-weight: bold;
     text-decoration: none;
     border-radius: 12px; 
     background-color: #DFB005;
@@ -75,16 +77,16 @@
     color: #000;
 }
 
-.sponsor-bottom a{
+.sponsor-bottom button{
 	display: inline-block;
 	font-weight: normal;
 	font-family: Epilogue;
 	font-style: normal;
-	font-size: 16px;
-    margin-top: 40px;
-    width: 20%;
+	font-size: xx-large;
+    margin-top: 400px;
+    /width: 20%;//*
     align-content: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -97,19 +99,20 @@
     	display: block;
     }
 
-    .sponsor-bottom {
+    /* .sponsor-bottom {
     	margin-top: 40px;
     	font-size: 20px;
-    }
+    } */
 
-    .sponsor-bottom a {
-    	width: 50%;
-    	left: 50%;
-    }
+     .sponsor-bottom {
+    	font-size: 20px;
+    	margin-top: 0;
+    } 
 
-    .reg-btn {
+    /* .reg-btn {
     	padding: 0;
-    }
+		width: 12.5%;
+		
+    } */
+
 }
-
-
